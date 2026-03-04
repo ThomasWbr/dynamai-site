@@ -1,0 +1,33 @@
+.header-dy {
+    display: flex; /* Alinha os elementos lado a lado */
+    justify-content: space-between; /* Espaço entre a logo e os itens */
+    align-items: center; /* Alinha verticalmente no centro */
+    padding: 20px 80px;
+    background: #e4e4e4; /* Apenas para visualização */
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(64, 64, 64);
+}
+
+.ulHeader {
+    list-style: none;
+    display: flex; /* Alinha os itens lado a lado */
+    gap: 15px; /* Espaçamento entre os itens */
+    padding: 0;
+    margin: 0;
+}
+
+.option p {
+    margin: 0;
+    padding: 10px;
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+}
+
+img {
+    height: 100px;
+}
