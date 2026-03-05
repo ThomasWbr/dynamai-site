@@ -1,6 +1,6 @@
 import './style.css'
 
-const headerOptions = ['SOBRE NÓS', 'PRODUTOS', 'SERVIÇOS']
+const headerOptions = ['HOME', 'DIÁRIA EXPRESS', 'ACTA']
 
 function Header(){
     return (

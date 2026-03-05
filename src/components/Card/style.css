@@ -1,0 +1,21 @@
+div .dyCard {
+    border: 2.5px solid#6632FE;
+    border-radius: 25px;
+    padding: 50px; 
+    margin: 10px;
+    color: #6632FE;
+    width: 50%;
+}
+
+.dyCardT{
+    font-size: larger;
+}
+
+.dyCardP {
+    font-size: medium;
+    margin: 15px 0;
+}
+
+.cardContainer {
+    display: flex;
+}
