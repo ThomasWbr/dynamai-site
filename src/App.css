@@ -16,3 +16,8 @@ body {
 
   min-height: 100vh;
 }
+
+/* Remove o efeito padrão do textarea */
+textarea:focus {
+  outline: none;
+}

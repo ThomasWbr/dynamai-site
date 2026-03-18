@@ -1,0 +1,45 @@
+.formWhats {
+    display: flex;
+    flex-direction: column; /* Coloca um embaixo do outro */
+    align-items: start; /* Alinha à esquerda */
+    width: 450px;
+    margin: 0 auto; /* Centraliza o form na tela */
+}
+
+.labelWhats {
+    margin-top: 15px;
+}
+
+.textWhats {
+    width: 100%; /* Ocupa toda largura do form */
+    padding: 20px 20px 70px 20px;
+    margin: 10px 0px;
+    resize: none; /* */
+
+    border-radius: 5px;
+    border-color: gray;
+    border: 2px solid #ccc;
+    
+    font-size: 15px;
+}
+
+.buttonWhats {
+    width: 50%;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center; /* Centraliza horizontal */
+    align-items: center; /* Centraliza vertical */
+
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.buttonWhats:hover {
+    background-color: darkgreen;
+}
