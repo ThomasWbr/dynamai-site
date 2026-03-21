@@ -1,6 +1,6 @@
 import './style.css'
 
-const headerOptions = ['HOME', 'DIÁRIA EXPRESS', 'ACTA']
+const headerOptions = ['HOME', 'DIÁRIA EXPRESS', 'ACTA', 'TABLINUM']
 
 function Header(){
     return (
